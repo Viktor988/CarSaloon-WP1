@@ -1,0 +1,332 @@
+*{margin:0px;
+padding:0px;}
+#ceo{width:100%;}
+#gore{width:100%;height:70px;display:flex;justify-content: space-between;align-items: center;background:#424040;}
+#logo{width:100px;height:50px;margin-left:10px;}
+#logo h1{color:white;font-size:23px;font-weight: 100;}
+#logo h2{color:white;font-size:25px;font-weight: 100;margin-left: 55px}
+#nav{width:600px;height:40px;}
+#trazii{font-size: 16px;
+    margin-right: 10px;
+    padding: 2px;}
+#nav ul{list-style-type: none;display:flex;justify-content: space-around;align-items: center;}
+#nav ul li{margin-top:-19px;padding:25.5px}
+#nav ul li a{text-decoration: none;color:white;font-size: 20px;}
+#slajder{width:100%;height:400px;}
+#pslajd{width: 100%;
+    color: rgb(209,209,209);
+    text-shadow: 3px 1px #000;
+    font-size: 60px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 5px 0px;
+    position: absolute;
+    margin-top: 184px;
+z-index: 1;}
+#slajder img{width:100%;height:480px;}
+#levo{position:absolute;margin-top: -220px;;font-size:40px;color: #0035ffc4red;margin-left:10px;}
+#desno{position:absolute;margin-top: -220px;;font-size:40px;color:#0035ffc4ed;right:10px;}
+#sredina{width:100%;}
+#sredina h1{text-align: center;margin-top: 115px;}
+#sredina hr{width:20%;margin-top:20px;}
+#sredina1{width:100%;   margin-top: 30px;    height: 300px;}
+#salon{width:50%;justify-content: space-around}
+.tekst{width:50%;float:left;}
+.oo p{font-size:20px;;margin-left:50px;text-align: justify;}
+.slika img{width:600px;float:right;margin-right:50px;}
+#sredina2{width:100%;display:flex;justify-content: space-around;margin-top:30px;}
+.prvi{background-color: red;width:350px;height:300px;}
+#naslovm h1{text-align: center;margin-top: 54px;}
+#naslovm hr{width:20%;margin-left:500px;}
+#slevo{position: absolute;
+    color: black;
+    margin-top: 200px;
+    font-size: 40px;
+    margin-left: 7px;z-index: 9999;}
+    #slevo i{font-weight: 600;    color: #3f3ff7;}
+    #slajder img{display:none}
+    #slajder .aktivna{display: block}
+    #sdesno{position: absolute;
+        right: 8px;
+        margin-top: 200px;
+        font-size: 40px;;
+        z-index: 9999;}
+#sdesno i{font-weight: 600;    color: #3f3ff7;}
+#bla{width:350px;height:300px;}
+#blaa{width:350px;height:300px;}
+#blaaa{width:350px;height:300px;}
+#n1{margin-left:120px;}
+#sredina3{width:100%;display: flex;justify-content: space-around;    margin-top: 30px;
+    height:512px;background-color: #00000054;margin-bottom:-101px;}
+#naslov3 h1{text-align: center;margin-top:40px;}
+.model{width:240px;height:300px;}
+#hecp{text-align: center;
+    margin-top: -305px;
+    padding: 116px 0px;
+    background-color: #000000ad;
+    position: absolute;
+    width: 350px;display:none;}
+    #hecp p{border: 1px solid white;
+        width: 100px;
+        padding: 20px 30px;
+        font-size: 25px;
+        color: white;
+        margin-left: 90px;
+        border-radius: 10px;}
+        #hecpd{text-align: center;
+            margin-top: -305px;
+            padding: 116px 0px;
+            background-color: #000000ad;
+            position: absolute;
+            width: 350px;display:none;}
+            #hecpd p{border: 1px solid white;
+                width: 150px;
+                padding: 20px 30px;
+                font-size: 25px;
+                color: white; 
+                margin-left: 70px;
+                border-radius: 10px;}
+                #hecpdz{text-align: center;
+                    margin-top: -305px;
+                    padding: 116px 0px;
+                    background-color: #000000ad;
+                    position: absolute;
+                    left: 95F0px;
+                    width: 350px;display:none;}
+                    #hecpdz p{border: 1px solid white;
+                        width: 150px;
+                        padding: 20px 30px;
+                        font-size: 25px;
+                        color: white;
+                        
+                        margin-left: 70px;
+                        border-radius: 10px;}
+.naj{
+    background-image: url(../slike/hec6p.png);
+    background-size:292px 200px;
+    background-repeat: no-repeat;}
+.naj2{
+    background-image: url(../slike/limm6.png);
+    background-size: 244px 200px;
+    background-repeat: no-repeat;}
+.naj3{
+    background-image: url(../slike/limm1.png);
+    background-size: 253px 200px;
+    background-repeat: no-repeat;}
+.naj4{
+    background-image: url(../slike/dzip4.png);
+    background-size: 281px 200px;
+    background-repeat: no-repeat;}
+#tprvi{display:none;text-align: justify;}
+.naj p{text-align: justify;margin-top:210px;}
+#tdrugi{display:none;text-align: justify;}
+.naj2 p{text-align: justify;margin-top:210px;}
+#ttreci{display:none;text-align: justify;}
+.naj3 p{text-align: justify;margin-top:210px;}
+#tcetvrti{display:none;text-align: justify;}
+.naj4 p{text-align: justify;margin-top:210px;}
+#futer{width:100%;height:100px;background: #424040;margin-top:210px;}
+/*registracija*/
+#formaceo{width:100%;}
+#formaceo img{width:100%;height:626px;opacity: 0.6;position:relative;display:block;}
+#znak img{
+    position: absolute;
+    left: 500px;
+    top: 636px;
+    width: 360px;
+    height: 136px;}
+    #formaprijava{width:100px;height:500px;}
+    #formar{margin-top:200px;}
+    #formar .formareg{display: block;   margin-left: 523px;   margin-top: 22px;
+        font-size: 17px;
+        padding: 9px;
+        width: 300px;}
+        #naslovreg{position: absolute;top:155px;left:594px;}
+        #text0{margin-left:409px;
+        margin-top:30px;position: absolute;font-size:18px;}
+        #text1{margin-left:409px;
+            margin-top:40px;position: absolute;font-size:18px;}
+            #text2{margin-left:409px;
+                margin-top:50px;position: absolute;font-size:18px;}
+                #celi{width:100%;height:500px;}
+                #radiob{margin-left:525px;margin-top:265px;position: absolute;display:flex;align-items: center;}
+                #radiob p{font-size:18px;margin-right:10px}
+                #dugme{position: absolute;display: block;   margin-left: 523px;   color: white;
+                    font-size: 17px;
+                    padding: 9px;
+                    width: 324px;background: -webkit-linear-gradient(top, rgba(0, 119, 255, 0.78) 0%, rgba(0, 0, 0, 0.88) 100%);top:1100px;}
+                    #ispis{    margin-left: 582px;
+                        margin-top: 284px;
+                        position: absolute;}
+                        #ispis ul{list-style-type: none;}
+                    #ispis ul li{color:red;}
+                    .dugme{width:90px;position:absolute;padding:7px;margin-top: 7px;   background-color: #0000ffa1;
+                        border-color: #0000ff91 }
+                    #tt{display:none;}
+                    #vise{margin-top:0px;display:none;}
+                    #vise1{margin-top:0px;display:none;}
+                    #vise3{margin-top:0px;display:none;}
+                    #vise2{margin-top:0px;display:none;}
+.model{margin-top:10px;}
+#reg{width:50px;height:50px;margin-top:9px;z-index: 1;margin-left: -159px;}
+#reg i{font-size:30px;;
+    color: white;
+    padding: 3px;}
+#meni{width:200px;height:112px;background:#424040;display:none;position: fixed;z-index: 1;
+    margin-top: 91px;margin-left:836px;}
+    #meni ul{list-style-type: none;}
+    #meni ul li{padding: 16px;width:168px;margin-top:-1px; }
+        #prvil i {margin-left:17px;color:white}
+        #drugil i{margin-left:36px;color:white}
+    #meni ul li a{text-decoration: none;color:white;   font-size:21px; }
+       /*prijava*/
+      #formacela{width:100%;    margin-bottom: -73px}
+     #prijavaf{width:500px;height:500px;position: absolute;}
+        #naslovprij{  width: 100%;
+            text-align: center;
+            margin-top: 104px; }
+         .prvit{font-size: 17px;
+            padding: 9px;
+            width: 300px;
+            margin-left: 522px;
+            margin-top: 211px; }
+         .pd{display: none;margin-top:17px;}
+         #dugprijava{color:white;
+            margin-left: 522px;
+            margin-top: 10px;
+             font-size: 17px;
+             padding: 9px;
+             width: 322px;
+        background: -webkit-linear-gradient(top, rgba(0, 119, 255, 0.78) 0%, rgba(0, 0, 0, 0.88) 100%);}
+         #prijavap{top: 258px;
+             color: red;
+             margin-top:3px;margin-left:617px;
+            }
+             #prijavad{position: absolute;
+                 margin-left: 611px;color:red;}
+            #dugprijava2{display:none;
+        color:white; 
+        margin-left: 522px;
+        margin-top: 20px;
+                font-size: 17px;
+                padding: 9px;
+                width: 322px;
+           background: -webkit-linear-gradient(top, rgba(0, 119, 255, 0.78) 0%, rgba(0, 0, 0, 0.88) 100%);}
+    #mmdugme{
+        width: 150px;
+padding: 5px;
+height: 40px;display:none;}
+/*hecbek*/
+#hecstrana{width:100%;margin-top: 104px;}
+#naslovhecbek{    text-align: center;
+    margin-top: 20px;}
+.hecgore{width: 1300px;
+    height: 200px;
+    margin-top: 60px;
+    margin: 60px auto;}
+.hecprvi{float:left;margin-left:101px;}
+.hecmodel{font-size:20px;font-weight: bold;}
+.heccena{font-size:20px;font-weight: bold;}
+.svise{font-size:23px;color: rgb(0, 0, 0);
+    width: 300px;
+    text-align: center;
+    background-color: rgb(66, 64, 64);}
+.svise i{font-size:20px;}
+.hecdole{width: 1300px;
+    height: 200px;
+    margin: -20px auto;}
+#dok h2{text-align: center;color:white;margin-top:40px;}
+/*limuzina*/
+#limstrana{width:100%;margin-top: 104px;}
+#naslovlimuzina{    text-align:center;
+    margin-top: 20px;}
+.limgore{width: 1300px;
+    height: 200px;
+    margin-top: 60px;
+    margin: 60px auto;}
+.limprvi{float:left;margin-left:101px;}
+.limmodel{font-size:20px;font-weight: bold;}
+.limcena{font-size:20px;font-weight: bold;}
+.svise{font-size:23px;}
+.svise i{font-size:20px;}
+.limdole{width: 1300px;
+    height: 200px;
+    margin: -20px auto;}
+.lajna{
+    width: 1112px;
+   margin:98px auto}
+#dok a{text-decoration: none;}
+/*dzip*/
+#dzipstrana{width:100%;margin-top: 104px;}
+#naslovdzip{   text-align: center;
+    margin-top: 20px;}
+.dzipgore{width: 1300px;
+    height: 200px;
+    margin-top: 60px;
+    margin: 60px auto;}
+.dzipprvi{float:left;margin-left:101px;}
+.dzipmodel{font-size:20px;font-weight: bold;}
+.dzipcena{font-size:20px;font-weight: bold;}
+.svise{font-size:23px;color:white;}
+.svise i{font-size:20px;}
+.dzipdole{width: 1300px;
+    height: 200px;
+    margin: -20px auto;}
+table{width:300px;}
+.mojaL{background: blue}
+.hecprvi img{width:300px;height:180px;}
+#spec1{display:none;}
+#spec2{display:none;}
+#spec3{display:none;}
+#spec4{display:none;}
+#spec5{display:none;}
+#spec6{display:none;}
+.dzipprvi img{width:300px;height:180px;}
+.limprvi img{width:300px;height:180px;}
+#spec1 table{border:1px solid black }
+/*kontakt*/
+#dsredina{width:100%;min-height:400px;display:flex;justify-content:space-around;align-items:center;margin-bottom: -101px;}
+#mapa{width:45%;height:300px;}
+#donas{width:30%;height:300px;}
+#donas h2{padding:2px;}
+#donas p{font-size:19px;margin-bottom:4px;}
+#donas p i{font-size:25px;color: #827878;}
+#imeg{color:red;font-size:20px;}
+#imeg{margin-right:10px;}
+#kforma{width:800px;
+margin: 0px auto;
+text-align: center;
+padding: 10px;padding: 13px;}
+#kforma .kfor {
+width:100%;
+margin-bottom:10px;
+font-size: 22px;}
+#kforma .kfor input{font-size:21px;padding:5px;width:65%;}
+#kforma .kfor textarea{font-size:21px;padding:5px;width:65%;height:100px;}
+#kforma .kfor label{
+float:left;
+width: 20%;
+display:flex;
+    align-items:center;
+    height: 50px;}
+	.cleaner{clear:both;}
+	#kforma .kfor input[type='submit']{
+padding:10px;color:black;width:200px;margin-left:-170px;}
+#kforma h2{margin-bottom:20px;font-size:27px;}	
+#kontnalov{width:100%;text-align: center;margin-top:100px;}
+/*autro*/
+#sadrzaj1{width:100%;min-height:900px;}
+#autslika{display:flex;justify-content:space-around;align-items:flex-center;padding-bottom: 50px;margin-bottom: -101px}
+#autslika img{width:250px;height:250px;margin-left:20px;}
+#autslika p {width:70%;font-size:21px;margin-top:15px;}
+#naslov2 h1{margin-left:633px;margin-top:20px;margin-bottom:50px;}
+#ausredina{margin-top:100px}
+.moja{background-color: green;}
+#ikonice{width:259px;height:15px;margin:0px auto;}
+#ikonice i{color:white;font-size:30px;margin-left:10px;margin-top:10px;}
+#ikonice a{color:white;font-size:30px;margin-left:18px;margin-top:10px;text-decoration: none}
+/*galerija*/
+.gallery{width: 90%;margin: 10px auto;display: flex;flex-wrap:wrap;;justify-content: space-around ;margin-top:170px;margin-bottom:-101px;}
+.gallery a{width: 400px;height:250px;margin-top:4px;}
+.gallery img{width: 400px;height:250px;}
+.gallery h1{display:block;position: absolute;margin-top:-60px}
